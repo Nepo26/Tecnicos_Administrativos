@@ -1,5 +1,5 @@
 # Técnicos-Administrativos
-  Um repositório para o armazenamento de parte do projeto de AP2(Algoritmos e Programação 2)
+  Um repositório para o armazenamento de parte do projeto de AP2(Algoritmos e Programação 2).
   
 ## Intruções para o projeto
 A classe *TecnicoAdministrativo* -que estende a classe *Empregado*- deve atender, dentre outras, às seguintes exigências:
@@ -28,3 +28,11 @@ aplicável a eles;
 * Há, obviamente, atributos e métodos adicionais que serão necessários, mas que não
 foram inseridos pelo professor -cabe à equipe identificar quais são estes atributos
 (e métodos), impondo-lhes as restrições necessárias.
+
+## Dividimos o projeto nas seguintes partes :
+
+* Modelagem
+* Interface Gráfica
+* Armazenamento dos dados
+* Tratamento de eventos
+* 
