@@ -2,8 +2,7 @@
   Um repositório para o armazenamento de parte do projeto de AP2(Algoritmos e Programação 2)
   
 ## Intruções para o projeto
-A classe TecnicoAdministrativo - que estende a classe Empregado
-- deve atender, dentre outras, às seguintes exigências:
+A classe *TecnicoAdministrativo* -que estende a classe *Empregado*- deve atender, dentre outras, às seguintes exigências:
 
 * Não pode haver dois empregados técnico-administrativos que tenham a mesma
 matricula;
