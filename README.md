@@ -31,8 +31,10 @@ foram inseridos pelo professor -cabe à equipe identificar quais são estes atri
 
 ## Dividimos o projeto nas seguintes partes :
 
-* Modelagem
-* Interface Gráfica
+* Implementação de **pesquisas**
 * Armazenamento dos dados
+* Conferir documentação
+* Interface Gráfica
 * Tratamento de eventos
-* 
+* Modelagem
+
