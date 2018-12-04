@@ -75,7 +75,7 @@ private static ArrayList <RegistroAcademico> historicos;
 Portanto, ficando à escolha o que utilizar para a interface gráfica, seja _javaFX_, seja _Swing_, ou até mesmo ignorar a interface gráfica e fazer _CLI_.
 
 ## Conferir documentação
-Cabe a essa(s) pessoa(s) reverem o código de todos e conferirem a questão dos comentários, principalmente nos da documentação. Isso NÃO abstém os outros da tarefa de comentar e documentar. O responsável por essa área não poderá somente fazer isso, pois caso for feito isso corre o risco de o professor achar que fez de menos.
+Cabe a essa(s) pessoa(s) reverem o código de todos e conferirem a questão dos comentários, principalmente nos da documentação. Isso **NÃO** abstém os outros da tarefa de comentar e documentar. O responsável por essa área não poderá somente fazer isso, pois caso for feito isso corre o risco de o professor achar que fez de menos.
 
 * Recomendada a checagem do código diariamente.
 
