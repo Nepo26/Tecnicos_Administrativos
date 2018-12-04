@@ -31,20 +31,17 @@ foram inseridos pelo professor -cabe à equipe identificar quais são estes atri
 
 ## Dividimos o projeto nas seguintes partes :
 
-  ### Implementação de **pesquisas**
+  ### Implementação de **pesquisas** e dos métodos de **"controle"**
     Descrição do que foi feito.
     
   ### Armazenamento dos dados
     Descrição do que foi feito.
     
+  ### Interface Gráfica & Tratamento de Eventos
+    Descrição do que foi feito.
+    
   ### Conferir documentação
     Descrição do que foi feito.
     
-  ### Interface Gráfica
-    Descrição do que foi feito.
-    
-  ### Tratamento de eventos
-    Descrição do que foi feito.
-    
-  ### Modelagem
+  ### Testes e Tratamento de erros
     Descrição do que foi feito.
