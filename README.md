@@ -31,7 +31,7 @@ foram inseridos pelo professor -cabe à equipe identificar quais são estes atri
 
 # Dividimos o projeto nas seguintes partes :
 
-  ##Implementação de **pesquisas** e dos métodos de **"controle"**
+  ## Implementação de **pesquisas** e dos métodos de **"controle"**
     Consta no pedido do trabalho :
 
     > Cada um dos módulos tem por objetivo principal realizar a completo
