@@ -1,6 +1,6 @@
 # Técnicos-Administrativos
-  Um repositório para o armazenamento de parte do projeto de AP2(Algoritmos e Programação 2).
-  
+Um repositório para o armazenamento de parte do projeto de AP2(Algoritmos e Programação 2).
+
 # Intruções para o projeto
 A classe *TecnicoAdministrativo* -que estende a classe *Empregado*- deve atender, dentre outras, às seguintes exigências:
 
@@ -29,7 +29,7 @@ aplicável a eles;
 foram inseridos pelo professor -cabe à equipe identificar quais são estes atributos
 (e métodos), impondo-lhes as restrições necessárias.
 
-  ## Implementação de **pesquisas** e dos métodos de **"controle"**
+## Implementação de **pesquisas** e dos métodos de **"controle"**
 Consta no pedido do trabalho :
 
 > Cada um dos módulos tem por objetivo principal realizar a completo
@@ -48,7 +48,7 @@ Fica dito que precisam de pessoas que implantem a questão relativa com os méto
 
 **OBS.: Utilizar _regex_ não é má ideia**
 
-  ## Armazenamento dos dados
+## Armazenamento dos dados
 Pede-se que : 
 > Não é exigido que o módulo seja capaz de armazenar seus entes (acadêmicos,
 > cursos, disciplinas, ...) numa estrutura secundária de armazenamento (arquivos ou
@@ -66,7 +66,7 @@ private static ArrayList <TecnicoAdministrativo> tecnicosAdministrativos;
 private static ArrayList <Disciplina> disciplinas;
 private static ArrayList <RegistroAcademico> historicos;
 ```
-  ## Interface Gráfica & Tratamento de Eventos
+## Interface Gráfica & Tratamento de Eventos
 É dito que :
 > Quanto à interface a ser utilizada para interação usuário-SGA, não há nenhuma exigência
 > estabelecida, ou seja, a equipe poderá optar por desenvolver seu módulo utilizando uma interface
@@ -74,10 +74,10 @@ private static ArrayList <RegistroAcademico> historicos;
 
 Portanto, ficando à escolha o que utilizar para a interface gráfica, seja _javaFX_, seja _Swing_, ou até mesmo ignorar a interface gráfica e fazer _CLI_.
 
-  ## Conferir documentação
+## Conferir documentação
 Cabe a essa(s) pessoa(s) reverem o código de todos e conferirem a questão dos comentários, principalmente nos da documentação. Isso NÃO abstém os outros da tarefa de comentar e documentar. O responsável por essa área não poderá somente fazer isso, pois caso for feito isso corre o risco de o professor achar que fez de menos.
 
 * Recomendada a checagem do código diariamente.
-    
-  ## Testes e Tratamento de erros
-    Cabe a essa(s) pessoa(s) a revisão de todo o código e promover rotinas de testes afim de encontrar exceções e possíveis erros. Caso os encontre, tentar resolvê-lo de forma imediata. Caso não os encontre, criar um issue, e marcá-lo como bug para que possamos todos tentar reproduzir o problema e encontrar uma solução.
+
+## Testes e Tratamento de erros
+Cabe a essa(s) pessoa(s) a revisão de todo o código e promover rotinas de testes afim de encontrar exceções e possíveis erros. Caso os encontre, tentar resolvê-lo de forma imediata. Caso não os encontre, criar um issue, e marcá-lo como bug para que possamos todos tentar reproduzir o problema e encontrar uma solução.
