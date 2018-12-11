@@ -1,12 +1,12 @@
-package sistemaacademico;
+package Project;//package sistemaacademico;
 /**
  *
  * @author Wanderley de Souza Alencar
  */
 /*
-* Nome.......: ElementoDescritivo
-* Objetivo...: Representa um elemento (com descrições abreviada e completa) que  
-*              será acessado por seu código (chave primária).
+* Nome.......: Project.ElementoDescritivo
+* Objetivo...: Representa um elemento (com descri��es abreviada e completa) que  
+*              ser� acessado por seu c�digo (chave prim�ria).
 * Observacoes:
 */
 public class ElementoDescritivo {
@@ -20,50 +20,50 @@ public class ElementoDescritivo {
         this.setDescricaoCompleta("");
     }
     /**
-     * @return O código do elemento descritivo.
+     * @return O c�digo do elemento descritivo.
      */
     public int getCodigo() {
         return codigo;
     }
     
     /**
-     * @param codigo Atribui valor para o código do elemento descritivo.
+     * @param codigo Atribui valor para o c�digo do elemento descritivo.
      */
     public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
 
     /**
-     * @return A descrição abreviada do elemento descritivo.
+     * @return A descri��o abreviada do elemento descritivo.
      */
     public String getDescricaoAbreviada() {
         return descricaoAbreviada;
     }
     
     /**
-     * @param descricaoAbreviada Atribui valor para a descrição abrevidada do elemento descritivo.
+     * @param descricaoAbreviada Atribui valor para a descri��o abrevidada do elemento descritivo.
      */
     public void setDescricaoAbreviada(String descricaoAbreviada) {
         this.descricaoAbreviada = descricaoAbreviada;
     }
 
     /**
-     * @return A descrição completa do elemento descritivo.
+     * @return A descri��o completa do elemento descritivo.
      */
     public String getDescricaoCompleta() {
         return descricaoCompleta;
     }
 
     /**
-     * @param descricaoCompleta Atribui valor para a descrição do elemento descritivo.
+     * @param descricaoCompleta Atribui valor para a descri��o do elemento descritivo.
      */
     public void setDescricaoCompleta(String descricaoCompleta) {
         this.descricaoCompleta = descricaoCompleta;
     }
     /**
-    * @param codigo Atribui valor para o código do elemento descritivo.
-    * @param descricaoAbreviada Atribui valor para a descrição abreviada do elemento descritivo.
-    * @param descricaoCompleta Atribui valor para a descrição completa do elemento descritivo.
+    * @param codigo Atribui valor para o c�digo do elemento descritivo.
+    * @param descricaoAbreviada Atribui valor para a descri��o abreviada do elemento descritivo.
+    * @param descricaoCompleta Atribui valor para a descri��o completa do elemento descritivo.
     */
     public void setElementoDescritivo(int codigo, String descricaoAbreviada, String descricaoCompleta) {
         this.setCodigo(codigo);

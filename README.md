@@ -2,7 +2,7 @@
 Um repositório para o armazenamento de parte do projeto de AP2(Algoritmos e Programação 2).
 
 # Intruções para o projeto
-A classe *TecnicoAdministrativo* -que estende a classe *Empregado*- deve atender, dentre outras, às seguintes exigências:
+A classe *Project.TecnicoAdministrativo* -que estende a classe *Project.Empregado*- deve atender, dentre outras, às seguintes exigências:
 
 * Não pode haver dois empregados técnico-administrativos que tenham a mesma
 *matricula*;
@@ -23,7 +23,7 @@ pode ser informado (ficarão com ZERO);
 aplicável a eles;
 
 * O atributo *titulacaoMaxima* deve ter valor dentre um dos previstos na classe
-*Titulacoes*;
+*Project.Titulacoes*;
 
 * Há, obviamente, atributos e métodos adicionais que serão necessários, mas que não
 foram inseridos pelo professor -cabe à equipe identificar quais são estes atributos
@@ -62,7 +62,7 @@ sugestão, a declaração poderia ser realizada da seguinte maneira:
 private static ArrayList <Curso> cursos;
 private static ArrayList <Academico> academicos;
 private static ArrayList <Docente> docentes;
-private static ArrayList <TecnicoAdministrativo> tecnicosAdministrativos;
+private static ArrayList <Project.TecnicoAdministrativo> tecnicosAdministrativos;
 private static ArrayList <Disciplina> disciplinas;
 private static ArrayList <RegistroAcademico> historicos;
 ```
