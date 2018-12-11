@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b12c3ec-88d1-4e89-844c-a23c5afcdb75" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Project/CentroCusto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/CentroCusto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Departamentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/Departamentos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/DocumentoIdentificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/DocumentoIdentificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/ElementoDescritivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/ElementoDescritivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Empregado.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/Empregado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/InterfaceUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/InterfaceUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/OrganizadorCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/OrganizadorCadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/RegimeEmprego.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/RegimeEmprego.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/RegimeRemuneracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/RegimeRemuneracao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/TecnicoAdministrativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/TecnicoAdministrativo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/Telefone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Titulacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/Titulacoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Unidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/Unidades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Project/InterfaceUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/InterfaceUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testOutputs/production/Tecnicos-Administrativos/Project/InterfaceUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/testOutputs/production/Tecnicos-Administrativos/Project/InterfaceUsuario.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project/Project/InterfaceUsuario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="175" column="137" selection-start-line="175" selection-start-column="137" selection-end-line="175" selection-end-column="137" />
+            <state relative-caret-position="254">
+              <caret line="175" column="54" selection-start-line="175" selection-start-column="54" selection-end-line="175" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,6 +35,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>textoComponenteUm</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -115,7 +106,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544554734366" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544555863223" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -185,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544547275377</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mais modificações à interface de usuário.">
+      <created>1544554755496</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544554755496</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -344,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project/Project/InterfaceUsuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="175" column="137" selection-start-line="175" selection-start-column="137" selection-end-line="175" selection-end-column="137" />
+        <state relative-caret-position="254">
+          <caret line="175" column="54" selection-start-line="175" selection-start-column="54" selection-end-line="175" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

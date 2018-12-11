@@ -81,57 +81,82 @@ public class InterfaceUsuario {
                             dimensionar(dataNascimento,80);
                         //
                             JTextField municipioNascimento       = new JTextField("Município de Nascimento");
-
+                            dimensionar(municipioNascimento,80);
                         //
                             JTextField ufNascimento              = new JTextField("UF Nascimento");
+                            dimensionar(ufNascimento,80);
                         //
                             JTextField paisNascimento            = new JTextField("País Nascimento");
+                            dimensionar(paisNascimento,80);
                         //
                             JTextField estadoCivil               = new JTextField("Estado Civil");
+                            dimensionar(estadoCivil,50);
 
                             JTextField endereco                  = new JTextField("Endereço");
+                            dimensionar(endereco,100);
 
                             JTextField telefoneResidencial       = new JTextField("Project.Telefone Residencial");
+                            dimensionar(telefoneResidencial,50);
 
                             JTextField telefoneComercial         = new JTextField("Project.Telefone Comercial");
+                            dimensionar(telefoneComercial,50);
 
                             JTextField telefoneAlternativo       = new JTextField("Project.Telefone Alternativo");
+                            dimensionar(telefoneAlternativo, 50);
 
                             JTextField emailPessoal              = new JTextField("E-mail Pessoal");
+                            dimensionar(emailPessoal, 90);
 
                             JTextField emailComercial            = new JTextField("E-mail Comercial");
+                            dimensionar(emailComercial,90);
 
                             JTextField emailAlternativo          = new JTextField("E-mail Alternativo");
+                            dimensionar(emailAlternativo, 90);
 
                             JTextField matricula                 = new JTextField("Matrícula");
+                            dimensionar(matricula,60);
 
                             JTextField regimeEmprego             = new JTextField("Regime Emprego");
+                            dimensionar(regimeEmprego,70);
 
                             JTextField regimeRemuneracao         = new JTextField("Regime Remuneração");
+                            dimensionar(regimeRemuneracao,70);
 
                             JTextField centroCusto               = new JTextField("Centro Custo");
+                            dimensionar(centroCusto, 70);
 
                             JTextField unidade                   = new JTextField("Unidade");
+                            dimensionar(unidade,50);
 
                             JTextField departamento              = new JTextField("Departamento");
+                            dimensionar(departamento,50);
 
                             JTextField cargaHorariaDiaria        = new JTextField("Carga Horária Diária");
+                            dimensionar(cargaHorariaDiaria,40);
 
                             JTextField cargaHorariaSemanal       = new JTextField("Carga Horária Semanal");
+                            dimensionar(cargaHorariaSemanal, 40);
 
                             JTextField cargaHorariaQuinzenal     = new JTextField("Carga Horária Quinzenal");
+                            dimensionar(cargaHorariaQuinzenal, 40);
 
                             JTextField cargaHorariaMensal        = new JTextField("Carga Horária Mensal");
+                            dimensionar(cargaHorariaMensal,40);
 
                             JTextField remuneracaoBasica         = new JTextField("Remuneração Básica");
+                            dimensionar(remuneracaoBasica,50);
 
                             JTextField remuneracaoComplementar   = new JTextField("Remuneração Complementar");
+                            dimensionar(remuneracaoComplementar,50);
 
                             JTextField remuneracaoAdicional      = new JTextField("Remuneração Adicional");
+                            dimensionar(remuneracaoAdicional,50);
 
                             JTextField remuneracaoGratificada    = new JTextField("Remuneração Gratificada");
+                            dimensionar(remuneracaoGratificada,50);
 
                             JTextField titulacaoMaxima           = new JTextField("Titulação Máxima");
+                            dimensionar(titulacaoMaxima, 100);
 
                         //Custom JButton
                         JButton finalizarCadastro = new JButton("Finalizar Cadastro");
@@ -150,7 +175,7 @@ public class InterfaceUsuario {
 
                         JPanel nameZip = new JPanel();
                         nameZip.setLayout(new GridBagLayout());
-                            organizadorCadastro.addLabel(prenome, cadastro); //Adicionando PreNome ao painel Cadastro
+                            organizadorCadastro.addLabel(prenome, nameZip); //Adicionando PreNome ao painel Cadastro
 
                             organizadorCadastro.addLabel(" Nome: ",nameZip);
                             organizadorCadastro.addLabel(nome, nameZip);
@@ -181,41 +206,18 @@ public class InterfaceUsuario {
                     fichaLinha(organizadorCadastro, centroCusto, " Centro Custo: ", unidade, " Unidade: "
                             , departamento, " Departamento: ",cadastro);
 
-                    fichaLinha(organizadorCadastro, cargaHorariaDiaria, " Carga Horária Diária: ", cargaHorariaSemanal, " Semanal :",cargaHorariaQuinzenal, " Quinzenal: ", cargaHorariaMensal, " Mensal :", cadastro);
-                    /*
-                    organizadorCadastro.addLabel("Carga Horária Diária:", cadastro);
-                    organizadorCadastro.addLabel(cargaHorariaDiaria, cadastro);
+                    fichaLinha(organizadorCadastro, cargaHorariaDiaria, " Carga Horária Diária: ", cargaHorariaSemanal, " Semanal :"
+                            ,cargaHorariaQuinzenal, " Quinzenal: ", cargaHorariaMensal, " Mensal :", cadastro);
 
-                    organizadorCadastro.addLabel(" Semanal: ",cadastro);
-                    organizadorCadastro.addLabel(cargaHorariaSemanal,cadastro);
+                    fichaLinha(organizadorCadastro, remuneracaoBasica, " Remuneração Básica: ", remuneracaoComplementar, " Remuneração Complementar: "
+                            ,remuneracaoAdicional, " Remuneração Adicional: ", remuneracaoGratificada, " Remuneração Gratificada ", cadastro);
 
-                    organizadorCadastro.addLabel(" Quinzenal: ",cadastro);
-                    organizadorCadastro.addLabel(cargaHorariaQuinzenal, cadastro);
+                    fichaLinha(organizadorCadastro,titulacaoMaxima, " Titulação Máxima: ",cadastro);
 
-                    organizadorCadastro.addLabel(" Mensal: ",cadastro);
-                    organizadorCadastro.addLabel(cargaHorariaMensal, cadastro);
-
-
-                    organizadorCadastro.addLabel(" Remuneração Básica: ", cadastro);
-                    organizadorCadastro.addLabel(remuneracaoBasica, cadastro);
-
-                    organizadorCadastro.addLabel(" Remuneração Compplementar: ", cadastro);
-                    organizadorCadastro.addLabel(remuneracaoComplementar, cadastro);
-
-                    organizadorCadastro.addLabel(" Remuneração Adicional: ", cadastro);
-                    organizadorCadastro.addLabel(remuneracaoAdicional, cadastro);
-
-                    organizadorCadastro.addLabel(" Remuneração Gratificada: ", cadastro);
-                    organizadorCadastro.addLabel(remuneracaoGratificada, cadastro);
-
-                    organizadorCadastro.addLabel(" Titulação Máxima: ", cadastro);
-                    organizadorCadastro.addLabel(titulacaoMaxima, cadastro);
-
-                    /*
 
                   //  cadastro.add(finalizarCadastro, BorderLayout.CENTER);
 
-                    */
+
                     //Botões
                     abaCadastrar.add(cadastro, BorderLayout.NORTH);
 
@@ -308,10 +310,30 @@ public class InterfaceUsuario {
         organizadorCadastro.addLabel(textoComponenteUm, ComponenteUmZip); //Criando o label para o componenteUm
         organizadorCadastro.addLabel(componenteUm,ComponenteUmZip); //Colocando o componenteUm
 
-        organizadorCadastro.addLabel(textoComponenteUm, ComponenteUmZip); //Criando o label para o componenteDois
-        organizadorCadastro.addLabel(componenteUm,ComponenteUmZip); //Colocando o componenteDois
+        organizadorCadastro.addLabel(textoComponenteDois, ComponenteUmZip); //Criando o label para o componenteDois
+        organizadorCadastro.addLabel(componenteDois,ComponenteUmZip); //Colocando o componenteDois
 
         organizadorCadastro.addLabel(componenteTres,ComponenteUmZip); //Colocando o componenteTres
+
+        organizadorCadastro.addLabel(ComponenteUmZip, painel); //"Link"|"Gambiarra" para ligar os dois JPanel
+        organizadorCadastro.addUltimoField(new JPanel(), painel); //Forma para "Pular a linha"
+    }
+
+    private static void fichaLinha(OrganizadorCadastro organizadorCadastro, Component componenteUm,String textoComponenteUm,Component componenteDois,String textoComponenteDois,Component componenteTres,String textoComponenteTres, Component componenteQuatro,String textoComponenteQuatro, JPanel painel) {
+        JPanel ComponenteUmZip = new JPanel();          //Criando painel para armazenar componentes da linha
+        ComponenteUmZip.setLayout(new GridBagLayout()); //Definindo o layout para o painel "Zip"
+
+        organizadorCadastro.addLabel(textoComponenteUm, ComponenteUmZip); //Criando o label para o componenteUm
+        organizadorCadastro.addLabel(componenteUm,ComponenteUmZip); //Colocando o componenteUm
+
+        organizadorCadastro.addLabel(textoComponenteDois, ComponenteUmZip); //Criando o label para o componenteDois
+        organizadorCadastro.addLabel(componenteDois,ComponenteUmZip); //Colocando o componenteDois
+
+        organizadorCadastro.addLabel(textoComponenteTres, ComponenteUmZip); //Criando o label para o componenteTres
+        organizadorCadastro.addLabel(componenteTres,ComponenteUmZip); //Colocando o componenteTres
+
+        organizadorCadastro.addLabel(textoComponenteQuatro, ComponenteUmZip); //Criando o label para o componenteQuatro
+        organizadorCadastro.addLabel(componenteQuatro,ComponenteUmZip); //Colocando o componenteQuatro
 
         organizadorCadastro.addLabel(ComponenteUmZip, painel); //"Link"|"Gambiarra" para ligar os dois JPanel
         organizadorCadastro.addUltimoField(new JPanel(), painel); //Forma para "Pular a linha"
