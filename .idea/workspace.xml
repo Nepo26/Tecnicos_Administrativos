@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b12c3ec-88d1-4e89-844c-a23c5afcdb75" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/Project/InterfaceUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/InterfaceUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Project/OrganizadorCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/OrganizadorCadastro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testOutputs/production/Tecnicos-Administrativos/Project/InterfaceUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/testOutputs/production/Tecnicos-Administrativos/Project/InterfaceUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testOutputs/production/Tecnicos-Administrativos/Project/OrganizadorCadastro.class" beforeDir="false" afterPath="$PROJECT_DIR$/testOutputs/production/Tecnicos-Administrativos/Project/OrganizadorCadastro.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/Project/InterfaceUsuario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="175" column="54" selection-start-line="175" selection-start-column="54" selection-end-line="175" selection-end-column="54" />
+            <state relative-caret-position="67">
+              <caret line="331" column="41" selection-start-line="331" selection-start-column="41" selection-end-line="331" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project/Project/OrganizadorCadastro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="224">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -39,7 +42,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>textoComponenteUm</find>
+      <find>JPanel</find>
+      <find>test</find>
+      <find>visi</find>
+      <find>//Forma para &quot;Pular a linha&quot;</find>
+      <find>BorderLayout</find>
+      <find>RELA</find>
+      <find>cadastro</find>
     </findStrings>
+    <replaceStrings>
+      <replace>//organizadorCadastro.addUltimoField(new JPanel(), painel); //Forma para &quot;Pular a linha&quot;</replace>
+      <replace>organizadorCadastro.addUltimoField(new JPanel(), painel); //Forma para &quot;Pular a linha&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -57,6 +71,7 @@
         <option value="$PROJECT_DIR$/Project/Email.java" />
         <option value="$PROJECT_DIR$/Project/InterfaceUsuario.java" />
         <option value="$PROJECT_DIR$/Project/Project/InterfaceUsuario.java" />
+        <option value="$PROJECT_DIR$/Project/Project/OrganizadorCadastro.java" />
       </list>
     </option>
   </component>
@@ -106,7 +121,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544555863223" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544562756386" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -333,20 +348,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/Project/OrganizadorCadastro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project/Project/InterfaceUsuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="175" column="54" selection-start-line="175" selection-start-column="54" selection-end-line="175" selection-end-column="54" />
+        <state relative-caret-position="67">
+          <caret line="331" column="41" selection-start-line="331" selection-start-column="41" selection-end-line="331" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/Project/OrganizadorCadastro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
         </state>
       </provider>
     </entry>

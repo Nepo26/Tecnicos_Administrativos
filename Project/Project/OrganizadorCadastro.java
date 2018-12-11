@@ -37,10 +37,7 @@ public class OrganizadorCadastro {
 
         // Adiciona um pequeno espaçamento
         ultimoConstraints.insets = new Insets(1,1,1,1);
-
-        ultimoConstraints.ipadx = 0;
-        ultimoConstraints.ipady = 0;
-
+        //ultimoConstraints.gridwidth = GridBagConstraints.RELATIVE; Faz todos ficarem em uma somente linha
         // Agora para os componentes do "Meio"
         meioConstraints =
                 (GridBagConstraints)ultimoConstraints.clone();

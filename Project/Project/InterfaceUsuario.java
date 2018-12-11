@@ -31,13 +31,14 @@ public class InterfaceUsuario {
 
         //Criando fundo
         JPanel fundo = new JPanel();
-        fundo.setBackground(Color.WHITE);
+        fundo.setBackground(Color.BLUE);
         fundo.setOpaque(true);
         janela.add(fundo, BorderLayout.CENTER); //Adiciona o fundo à janela principal
 
 
         //Criando Base de Escolhas
         JPanel baseDeEscolhas = new JPanel(new GridLayout(1,5));
+        baseDeEscolhas.setBackground(Color.GREEN);
 
             //Adicionando os componentes à base de Escolhas
             baseDeEscolhas.add(cadastrar,0);
@@ -187,7 +188,10 @@ public class InterfaceUsuario {
                             organizadorCadastro.addLabel(dataNascimento, nameZip);
 
                             organizadorCadastro.addLabel(nameZip,cadastro); //"Link"|"Gambiarra" para ligar os dois JPanel
-                            organizadorCadastro.addUltimoField(new JPanel(), cadastro); //Forma para "Pular a linha"
+                            JPanel painelTeste = new JPanel();
+                            //organizadorCadastro.addUltimoField(painelTeste, cadastro); //Forma para "Pular a linha"
+                            cadastro.add(painelTeste);
+                            painelTeste.setBackground(Color.MAGENTA);
 
                     fichaLinha(organizadorCadastro, municipioNascimento," Municício de Nascimento: ",
                             ufNascimento," UF de nascimento: ",paisNascimento, " País de nascimento: ",cadastro);
@@ -215,7 +219,7 @@ public class InterfaceUsuario {
                     fichaLinha(organizadorCadastro,titulacaoMaxima, " Titulação Máxima: ",cadastro);
 
 
-                  //  cadastro.add(finalizarCadastro, BorderLayout.CENTER);
+
 
 
                     //Botões
@@ -227,6 +231,7 @@ public class InterfaceUsuario {
 
 
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        janela.pack();
         janela.setVisible(true);
         janela.setExtendedState(janela.getExtendedState() | JFrame.MAXIMIZED_BOTH); //Isso faz o programa iniciar em "tela cheia"
 
@@ -337,6 +342,7 @@ public class InterfaceUsuario {
 
         organizadorCadastro.addLabel(ComponenteUmZip, painel); //"Link"|"Gambiarra" para ligar os dois JPanel
         organizadorCadastro.addUltimoField(new JPanel(), painel); //Forma para "Pular a linha"
+
     }
 
 }
