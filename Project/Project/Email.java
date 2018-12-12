@@ -1,4 +1,6 @@
 //package sistemaacademico;
+package Project.Project;
+
 /**
  *
  * @author Wanderley de Souza Alencar
@@ -11,10 +13,13 @@
 public class Email {
     String                          prefixo;
     String                          sufixo;
-	
-    
-    
-    public String getPrefixo() {
+
+	public Email(String prefixo, String sufixo) {
+		this.prefixo = prefixo;
+		this.sufixo = sufixo;
+	}
+
+	public String getPrefixo() {
 		return prefixo;
 	}
 	public void setPrefixo(String prefixo) {

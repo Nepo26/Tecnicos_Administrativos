@@ -1,15 +1,15 @@
-//package sistemaacademico;
-import java.util.Scanner;
+    package Project;//package sistemaacademico;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Scanner;
 /**
  *
  * @author Wanderley de Souza Alencar
  */
 /*
 * Nome.......: TecnicioAdministrativo
-* Objetivo...: Representar um(a) empregado(a) que exerce função técnico-administrativa.
+* Objetivo...: Representar um(a) empregado(a) que exerce funï¿½ï¿½o tï¿½cnico-administrativa.
 * Observacoes:
 */
 public class TecnicoAdministrativo extends Empregado {
@@ -20,23 +20,46 @@ public class TecnicoAdministrativo extends Empregado {
 
 
 	//
-    // A equipe responsável deverá verificar se há necessidade de outros
-    // atributos e métodos para inseri-los....
+    // A equipe responsï¿½vel deverï¿½ verificar se hï¿½ necessidade de outros
+    // atributos e mï¿½todos para inseri-los....
     // 
-    // Observação: Lembre-se que devo poder cadastrar, alterar, consultar e 
-    // excluir pelo número de matricula do empregado...
+    // Observaï¿½ï¿½o: Lembre-se que devo poder cadastrar, alterar, consultar e 
+    // excluir pelo nï¿½mero de matricula do empregado...
 
 
 	
 	//Construtor
-	public TecnicoAdministrativo(DocumentoIdentificacao documento, String prenome, String sobrenome,
-			Date dataNascimento, long municipioNascimento, int ufNascimento, int paisNascimento, int estadoCivil,
-			Endereco endereco, Telefone telefoneResidencial, Telefone telefoneComercial, Telefone telefoneAlternativo,
-			Email emailPessoal, Email emailComercial, Email emailAlternativo, long matricula, int regimeEmprego,
-			int regimeRemuneracao, int centroCusto, int unidade, int departamento, double cargaHorariaDiaria,
-			double cargaHorariaSemanal, double cargaHorariaQuinzenal, double cargaHorariaMensal,
-			double remuneracaoBasica, double remuneracaoComplementar, double remuneracaoAdicional,
-			double remuneracaoGratificada, int titulacaoMaxima) {
+	public TecnicoAdministrativo(
+                DocumentoIdentificacao documento,
+                String prenome,
+                String sobrenome,
+			Date dataNascimento, 
+                        long municipioNascimento, 
+                        int ufNascimento, 
+                        int paisNascimento, 
+                        int estadoCivil,
+			Endereco endereco, 
+                        Telefone telefoneResidencial, 
+                        Telefone telefoneComercial, 
+                        Telefone telefoneAlternativo,
+			Email emailPessoal, 
+                        Email emailComercial, 
+                        Email emailAlternativo, 
+                        long matricula, 
+                        int regimeEmprego,
+			int regimeRemuneracao, 
+                        int centroCusto, 
+                        int unidade, 
+                        int departamento, 
+                        double cargaHorariaDiaria,
+			double cargaHorariaSemanal, 
+                        double cargaHorariaQuinzenal, 
+                        double cargaHorariaMensal,
+			double remuneracaoBasica, 
+                        double remuneracaoComplementar, 
+                        double remuneracaoAdicional,
+			double remuneracaoGratificada, 
+                        int titulacaoMaxima) {
 		super(documento, prenome, sobrenome, dataNascimento, municipioNascimento, ufNascimento, paisNascimento, estadoCivil,
 				endereco, telefoneResidencial, telefoneComercial, telefoneAlternativo, emailPessoal, emailComercial,
 				emailAlternativo, matricula, regimeEmprego, regimeRemuneracao, centroCusto, unidade, departamento,
@@ -48,11 +71,11 @@ public class TecnicoAdministrativo extends Empregado {
 
 
 	public void cadastrar() {
-		//TecnicoAdministrativo a;
+		
 		int c = s.nextInt();
 		TecnicoAdministrativo a = null;
 		
-		//Chamando métodos
+		//Chamando mï¿½todos
 		
 		a.setCargaHorariaDiaria(cargaHorariaDiaria);
 		a.setCargaHorariaMensal(cargaHorariaMensal);
@@ -84,8 +107,7 @@ public class TecnicoAdministrativo extends Empregado {
 		a.setTitulacaoMaxima(titulacaoMaxima);
 		a.setUfNascimento(ufNascimento);
 		a.setUnidade(unidade);
-			
-		
+
 		//Criando cadastro/objeto
 		a = new TecnicoAdministrativo(a.getDocumento(), a.getPrenome(), a.getSobrenome(), 
 				a.getDataNascimento(), a.getMunicipioNascimento(), a.getUfNascimento(), a.getPaisNascimento(),
@@ -104,6 +126,7 @@ public class TecnicoAdministrativo extends Empregado {
     
     public void alterar(DocumentoIdentificacao documento) {
         throw new UnsupportedOperationException("Not supported yet.");
+
     }
 
     

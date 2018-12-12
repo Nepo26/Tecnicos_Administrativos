@@ -1,16 +1,18 @@
 //package sistemaacademico;
+package Project;
+
 /**
  *
  * @author Wanderley de Souza Alencar
  */
 /*
-* Nome.......: Endereço
-* Objetivo...: Representar um endereço de um logradouro qualquer.
+* Nome.......: Endereï¿½o
+* Objetivo...: Representar um endereï¿½o de um logradouro qualquer.
 * Observacoes:
 */
 public class Endereco {
     int                             tipoLogradouro;         
-    int                             codigoLogradouro;       // É o CEP do logradouro
+    int                             codigoLogradouro;       // ï¿½ o CEP do logradouro
     String                          descricaoLogradouro;
     String                          complementoLogradouro;  // Por exemplo: esquina com Rua 26.
     int                             numero;                 // 0 quando inexistente
@@ -20,9 +22,8 @@ public class Endereco {
     long                            municipio;
     int                             unidadeFederacao;
     int                             pais;
-    String                          referencia;             // Ponto de referência do endereço.
+    String                          referencia;             // Ponto de referï¿½ncia do endereï¿½o.
 	
-    
     
     public int getTipoLogradouro() {
 		return tipoLogradouro;
@@ -33,6 +34,22 @@ public class Endereco {
 	public int getCodigoLogradouro() {
 		return codigoLogradouro;
 	}
+
+	public Endereco(int tipoLogradouro, int codigoLogradouro, String descricaoLogradouro, String complementoLogradouro, int numero, String quadra, String lote, String bairro, long municipio, int unidadeFederacao, int pais, String referencia) {
+		this.tipoLogradouro = tipoLogradouro;
+		this.codigoLogradouro = codigoLogradouro;
+		this.descricaoLogradouro = descricaoLogradouro;
+		this.complementoLogradouro = complementoLogradouro;
+		this.numero = numero;
+		this.quadra = quadra;
+		this.lote = lote;
+		this.bairro = bairro;
+		this.municipio = municipio;
+		this.unidadeFederacao = unidadeFederacao;
+		this.pais = pais;
+		this.referencia = referencia;
+	}
+
 	public void setCodigoLogradouro(int codigoLogradouro) {
 		this.codigoLogradouro = codigoLogradouro;
 	}

@@ -1,3 +1,5 @@
+package Project;
+
 import java.util.Date;
 
 //package sistemaacademico;
@@ -7,7 +9,7 @@ import java.util.Date;
  */
 /*
 * Nome.......: Empregado
-* Objetivo...: Representar um(a) empregado(a) qualquer de uma instituição de ensino.
+* Objetivo...: Representar um(a) empregado(a) qualquer de uma instituiï¿½ï¿½o de ensino.
 * Observacoes:
 */
 public abstract class Empregado extends Pessoa {
@@ -16,27 +18,27 @@ public abstract class Empregado extends Pessoa {
     int                             regimeRemuneracao;
     
     //
-    // Normalmente um empregado está "lotado" num centro centro de custo, unidade
+    // Normalmente um empregado estï¿½ "lotado" num centro centro de custo, unidade
     // e departamento...
-    // Exemplo:     centro de custo : UFG - Câmpus I (Praça Universitária) 
+    // Exemplo:     centro de custo : UFG - Cï¿½mpus I (Praï¿½a Universitï¿½ria) 
     //              unidade:        Escola de Engenharia 
-    //              departamento:   Engenharia da Computação
+    //              departamento:   Engenharia da Computaï¿½ï¿½o
     //
     int                             centroCusto;
     int                             unidade;
     int                             departamento; 
 
-    double                          cargaHorariaDiaria;     // Máximo de 10h
-    double                          cargaHorariaSemanal;    // Máximo de 44h
-    double                          cargaHorariaQuinzenal;  // Máximo de 100h
-    double                          cargaHorariaMensal;     // Máximo de 250h
+    double                          cargaHorariaDiaria;     // Mï¿½ximo de 10h
+    double                          cargaHorariaSemanal;    // Mï¿½ximo de 44h
+    double                          cargaHorariaQuinzenal;  // Mï¿½ximo de 100h
+    double                          cargaHorariaMensal;     // Mï¿½ximo de 250h
 
     double                          remuneracaoBasica;          // Todos podem ser 0 (zero)
     double                          remuneracaoComplementar;    // ou mais...
     double                          remuneracaoAdicional;
     double                          remuneracaoGratificada;
     
-    int                             titulacaoMaxima;        // Código da titulação
+    int                             titulacaoMaxima;        // Cï¿½digo da titulaï¿½ï¿½o
     
     
     

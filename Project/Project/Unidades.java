@@ -1,5 +1,8 @@
 //package sistemaacademico;
+package Project.Project;
 
+
+import Project.ElementoDescritivo;
 import java.util.ArrayList;
 
 /**
@@ -8,7 +11,7 @@ import java.util.ArrayList;
  */
 /*
 * Nome.......: Unidades
-* Objetivo...: Representa a unidade (acadêmica ou administrativa) ao qual um 
+* Objetivo...: Representa a unidade (acadï¿½mica ou administrativa) ao qual um 
 *              empregado pode estar vinculado.
 * Observacoes: Se for desconhecido, utilize o tipo 0 - DS - Desconhecido.
 */
@@ -16,18 +19,18 @@ public class Unidades {
     private ArrayList <ElementoDescritivo>  unidades;
     
     /**
-     * Implemente de maneira similar à UnidadeFederativa.
+     * Implemente de maneira similar ï¿½ UnidadeFederativa.
      * 
-     * Código Descrição Abreviada   Descrição Completa
+     * Cï¿½digo Descriï¿½ï¿½o Abreviada   Descriï¿½ï¿½o Completa
      * 	00  - DS                    Desconhecida
 	01  - EE                    Escola de Engenharia 
-	02  - INF                   Instituto de Informática
-	03  - IME                   Instituto de Matemática e Estatística
+	02  - INF                   Instituto de Informï¿½tica
+	03  - IME                   Instituto de Matemï¿½tica e Estatï¿½stica
         04  - FO                    Faculdade de Odontologia
         05  - DRH                   Departamento de Recursos Humanos
-        06  - PRG                   Pró-Reitoria de Graduação
+        06  - PRG                   Prï¿½-Reitoria de Graduaï¿½ï¿½o
 	07  - OUT                   Outro
      
-     * Observação: Basta colocar estes 07, apesar de ser possível muitos outros.
+     * Observaï¿½ï¿½o: Basta colocar estes 07, apesar de ser possï¿½vel muitos outros.
      */    
 }

@@ -1,4 +1,7 @@
 //package sistemaacademico;
+package Project;
+
+import Project.ElementoDescritivo;
 import java.util.ArrayList;
 /**
  *
@@ -6,7 +9,7 @@ import java.util.ArrayList;
  */
 /*
 * Nome.......: RegimeRemuneracao
-* Objetivo...: Representa os possíveis regimes de remuneracao que um empregado
+* Objetivo...: Representa os possï¿½veis regimes de remuneracao que um empregado
 *              pode ter.
 * Observacoes: Se for desconhecido, utilize o tipo 0 - DS - Desconhecido.
 */
@@ -15,9 +18,9 @@ public class RegimeRemuneracao {
     private ArrayList <ElementoDescritivo>  regimeRemuneracao;
     
     /**
-     * Implementar de maneira semelhante à UnidadeFederativa.
+     * Implementar de maneira semelhante ï¿½ UnidadeFederativa.
      * 
-     *      Cód  Descrição Completa     Descrição Abreviada
+     *      Cï¿½d  Descriï¿½ï¿½o Completa     Descriï¿½ï¿½o Abreviada
             00 - Desconhecido           DS
             01 - Horista                HR
             02 - Semanal                SM

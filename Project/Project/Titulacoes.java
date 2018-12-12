@@ -1,5 +1,8 @@
 //package sistemaacademico;
+package Project.Project;
 
+
+import Project.ElementoDescritivo;
 import java.util.ArrayList;
 
 /**
@@ -8,7 +11,7 @@ import java.util.ArrayList;
  */
 /*
 * Nome.......: Titulacoes
-* Objetivo...: Representa as possíveis titulações que um empregado pode ter.
+* Objetivo...: Representa as possï¿½veis titulaï¿½ï¿½es que um empregado pode ter.
 * Observacoes: Se for desconhecida, utilize o tipo 0 - DS - Desconhecido.
 */
 public class Titulacoes {
@@ -16,25 +19,25 @@ public class Titulacoes {
     
     /**
      * Implementar de maneira semelhante a UnidadeFederativa.
-     *      Cod  Descrição Completa                     Descrição Abreviada
+     *      Cod  Descriï¿½ï¿½o Completa                     Descriï¿½ï¿½o Abreviada
      *      00 - Desconhecida                               DS
             01 - Analfabeto                                 ANF
-            02 - Educação Infantil - Incompleta             EI-I
-            03 - Educação Infantil - Completa               EI-C
+            02 - Educaï¿½ï¿½o Infantil - Incompleta             EI-I
+            03 - Educaï¿½ï¿½o Infantil - Completa               EI-C
             04 - Ensino Fundamental - Incompleto            EF-I
             05 - Ensino Fundamental - Completo              EF-C
-            06 - Ensino Médio - Incompleto                  EM-I
-            07 - Ensino Médio - Completo                    EM-C
+            06 - Ensino Mï¿½dio - Incompleto                  EM-I
+            07 - Ensino Mï¿½dio - Completo                    EM-C
             08 - Ensino Superior - Incompleto               ES-I
             09 - Ensino Superior - Completo                 ES-C
-            10 - Especialização - Incompleta                PG-I
-            11 - Especialização - Completa                  PG-C
+            10 - Especializaï¿½ï¿½o - Incompleta                PG-I
+            11 - Especializaï¿½ï¿½o - Completa                  PG-C
             12 - Mestrado - Incompleto                      ME-I
             13 - Mestrado - Completo                        ME-C
             14 - Doutorado - Inompleto                      DR-I
             15 - Doutorado - Completo                       DR-C
-            16 - Pós-Doutorado - Incompleto                 PD-I
-            17 - Pós-Doutorado - Completo                   PD-C
+            16 - Pï¿½s-Doutorado - Incompleto                 PD-I
+            17 - Pï¿½s-Doutorado - Completo                   PD-C
             18 - Outra                                      OUT
      */
     

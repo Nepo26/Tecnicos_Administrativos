@@ -1,4 +1,6 @@
 //package sistemaacademico;
+package Project;
+
 
 import java.util.Date;
 
@@ -9,8 +11,8 @@ import java.util.Date;
 /*
 * Nome.......: Pessoa
 * Objetivo...: Representar uma pessoa qualquer.
-* Observacoes: Exige-se que a pessoa tenha um identificador único, ou seja, 
-*              duas pessoas não podem ter o mesmo tipo e número de identificador
+* Observacoes: Exige-se que a pessoa tenha um identificador ï¿½nico, ou seja, 
+*              duas pessoas nï¿½o podem ter o mesmo tipo e nï¿½mero de identificador
 *              
 */
 public abstract class Pessoa {
@@ -19,11 +21,11 @@ public abstract class Pessoa {
     private String                  sobrenome;              // da Silva Ferreira Prado
     
     private Date                    dataNascimento;
-    private long                    municipioNascimento;    // Código do município
+    private long                    municipioNascimento;    // Cï¿½digo do municï¿½pio
     private int                     ufNascimento;
     private int                     paisNascimento;
     
-    private int                     estadoCivil;            // Código do estado civil
+    private int                     estadoCivil;            // Cï¿½digo do estado civil
     private Endereco                endereco;
     private Telefone                telefoneResidencial;
     private Telefone                telefoneComercial;

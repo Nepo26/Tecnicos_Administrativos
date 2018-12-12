@@ -1,4 +1,5 @@
-//package sistemaacademico;
+package Project;//package sistemaacademico;
+
 
 import java.util.ArrayList;
 
@@ -16,14 +17,14 @@ public class CentroCusto {
     private ArrayList <ElementoDescritivo>  centroCusto;
     
     /**
-     * Implemente de maneira similar à UnidadeFederativa.
+     * Implemente de maneira similar ï¿½ UnidadeFederativa.
      * 
-     * Código Descrição Abreviada   Descrição Completa
+     * Cï¿½digo Descriï¿½ï¿½o Abreviada   Descriï¿½ï¿½o Completa
      * 	00  - DS                    Desconhecido
-	01  - UFG-I                 UFG - Goiânia (Câmpus I)
-	02  - UFG-II                UFG - Goiânia (Câmpus II)
-	03  - UFG-CAT               UFG - Catalão
-        04  - UFG-JAT               UFG - Jataí
+	01  - UFG-I                 UFG - Goiï¿½nia (Cï¿½mpus I)
+	02  - UFG-II                UFG - Goiï¿½nia (Cï¿½mpus II)
+	03  - UFG-CAT               UFG - Catalï¿½o
+        04  - UFG-JAT               UFG - Jataï¿½
 	05  - OUT                   Outro
      */
     

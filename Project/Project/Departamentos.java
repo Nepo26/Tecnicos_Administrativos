@@ -1,4 +1,4 @@
-//package sistemaacademico;
+package Project;//package sistemaacademico;
 
 import java.util.ArrayList;
 /**
@@ -14,13 +14,13 @@ public class Departamentos {
     private ArrayList <ElementoDescritivo>  departamentos;
     
     /**
-     * Implemente de maneira similar à UnidadesFederativas.
+     * Implemente de maneira similar ï¿½ UnidadesFederativas.
      * 
-     * Código Descrição Abreviada   Descrição Completa
+     * Cï¿½digo Descriï¿½ï¿½o Abreviada   Descriï¿½ï¿½o Completa
      * 	00  - DS                    Desconhecido
-	01  - EC                    Engenharia da Computação
-	02  - EE                    Engenharia Elétrica
-	03  - EM                    Engenharia Mecânica
+	01  - EC                    Engenharia da Computaï¿½ï¿½o
+	02  - EE                    Engenharia Elï¿½trica
+	03  - EM                    Engenharia Mecï¿½nica
 	04  - OUT                   Outro
      */
     

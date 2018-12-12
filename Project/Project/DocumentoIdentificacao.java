@@ -1,26 +1,35 @@
-//package sistemaacademico;
+package Project;//package sistemaacademico;
 /**
  *
  * @author Wanderley de Souza Alencar
  */
 /*
 * Nome.......: DocumentoIdentificacao
-* Objetivo...: Representa um documento de identificação de uma Pessoa
+* Objetivo...: Representa um documento de identificaï¿½ï¿½o de uma Pessoa
 * Observacoes:
 */
 public class DocumentoIdentificacao {
     /*
-    * tipo                          <veja tipos de documentos possíveis>
+    * tipo                          <veja tipos de documentos possï¿½veis>
     * numero                        1 .. 
-    * complemento                   complemento do número (por exemplo, letras)
-    * orgaoExpedidor                orgão que expediu o documento
-    * pais                          código do país emissor do documento
+    * complemento                   complemento do nï¿½mero (por exemplo, letras)
+    * orgaoExpedidor                orgï¿½o que expediu o documento
+    * pais                          cï¿½digo do paï¿½s emissor do documento
     */
     private int                     tipo;
     private long                    numero;
     private String                  complemento;
     private String                  orgaoExpedidor;
-    private int                     pais;
+
+	public DocumentoIdentificacao(int tipo, long numero, String complemento, String orgaoExpedidor, int pais) {
+		this.tipo = tipo;
+		this.numero = numero;
+		this.complemento = complemento;
+		this.orgaoExpedidor = orgaoExpedidor;
+		this.pais = pais;
+	}
+
+	private int                     pais;
 	
     
     
