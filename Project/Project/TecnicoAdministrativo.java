@@ -9,7 +9,7 @@ import java.util.Date;
  */
 /*
 * Nome.......: TecnicioAdministrativo
-* Objetivo...: Representar um(a) empregado(a) que exerce funÁ„o tÈcnico-administrativa.
+* Objetivo...: Representar um(a) empregado(a) que exerce fun√ß√£o t√©cnico-administrativa.
 * Observacoes:
 */
 public class TecnicoAdministrativo extends Empregado {
@@ -20,11 +20,11 @@ public class TecnicoAdministrativo extends Empregado {
 
 
 	//
-    // A equipe respons·vel dever· verificar se h· necessidade de outros
-    // atributos e mÈtodos para inseri-los....
+    // A equipe respons√°vel dever√° verificar se h√° necessidade de outros
+    // atributos e m√©todos para inseri-los....
     // 
-    // ObservaÁ„o: Lembre-se que devo poder cadastrar, alterar, consultar e 
-    // excluir pelo n˙mero de matricula do empregado...
+    // Observa√ß√£o: Lembre-se que devo poder cadastrar, alterar, consultar e 
+    // excluir pelo n√∫mero de matricula do empregado...
 
 
 	
@@ -52,7 +52,7 @@ public class TecnicoAdministrativo extends Empregado {
 		int c = s.nextInt();
 		TecnicoAdministrativo a = null;
 		
-		//Chamando mÈtodos
+		//Chamando m√©todos
 		
 		a.setCargaHorariaDiaria(cargaHorariaDiaria);
 		a.setCargaHorariaMensal(cargaHorariaMensal);
@@ -124,7 +124,8 @@ public class TecnicoAdministrativo extends Empregado {
 				
 				break;
 				}
-        }
+        		//else caso n√£o encontre
+	}		
     
     	throw new UnsupportedOperationException("Not supported yet.");
     }
@@ -181,7 +182,7 @@ public class TecnicoAdministrativo extends Empregado {
 						tecnicosAdministrativos.get(i).getUnidade() + "\n" +
 						tecnicosAdministrativos.get(i).getDepartamento() + "\n\n\n");
 				}
-			
+			//else caso n√£o encontre
     	throw new UnsupportedOperationException("Not supported yet.");
     }
 		return null;
