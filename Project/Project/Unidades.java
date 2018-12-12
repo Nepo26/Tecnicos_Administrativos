@@ -1,5 +1,5 @@
 //package sistemaacademico;
-package Project.Project;
+package Project;
 
 
 import Project.ElementoDescritivo;
