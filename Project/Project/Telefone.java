@@ -1,5 +1,5 @@
 //package sistemaacademico;
-package Project;
+package Project.Project;
 
 /**
  *

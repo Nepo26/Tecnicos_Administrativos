@@ -756,9 +756,9 @@ public class Principal extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(abaInformacoesPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(abaInformacoesPanelLayout.createSequentialGroup()
-                        .addGroup(abaInformacoesPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(expandirResultadoButton, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(informacoesLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(abaInformacoesPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(informacoesLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(expandirResultadoButton, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(excluirResultadoButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
@@ -811,12 +811,11 @@ public class Principal extends javax.swing.JFrame {
             areaDeResultadosPainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, areaDeResultadosPainelLayout.createSequentialGroup()
                 .addGroup(areaDeResultadosPainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(areaDeResultadosPainelLayout.createSequentialGroup()
-                        .addComponent(abaInformacoesPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
+                    .addComponent(abaInformacoesPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(areaDeResultadosPainelLayout.createSequentialGroup()
                         .addComponent(levantamentoPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollBar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         areaDeResultadosPainelLayout.setVerticalGroup(
@@ -898,8 +897,8 @@ public class Principal extends javax.swing.JFrame {
         
         
         String preNomeString = preNomeComboBox.getSelectedItem().toString();
-        String nome = nomeTextField.getText();
-        String sobrenome = sobrenomeTextField.getText();
+        String nomeString = nomeTextField.getText();
+        String sobrenomeString = sobrenomeTextField.getText();
         
         //Precisando arrumar exceções
         Date dataDeNascimentoDate;
@@ -935,8 +934,10 @@ public class Principal extends javax.swing.JFrame {
         
         String municipioDeNascimentoString = municipioDeNascimentoTextField.getText();
         String ufString = ufComboBox.getSelectedItem().toString();
+            Integer ufInt = Integer.parseInt(ufString);
         String paisString = paisNascimentoTextField.getText();
         String estadoCivilString = estadoCivilComboBox.getSelectedItem().toString();
+            Integer estadoCivilInt = Integer.parseInt(estadoCivilString);
         
         //Criando o objeto endereço
         int tipoDeLogradouroInt = Integer.parseInt( tipoLogradouroTextField.getText());
@@ -974,24 +975,46 @@ public class Principal extends javax.swing.JFrame {
         String emailAlternativoString = emailAlternativoTextField.getText();
         
         String matriculaString = matriculaFormattedTextField.getText();
+            Long matriculaLong = Long.parseLong(matriculaString);
         String regimeEmpregoString = regimeEmpregoComboBox.getSelectedItem().toString();
+            Integer regimeEmpregoInt = Integer.parseInt(regimeEmpregoString);
         String regimeRemuneracaoString = regimeRemuneracaoComboBox.getSelectedItem().toString();
+            Integer regimeRemuneracaoInt = Integer.parseInt(regimeRemuneracaoString);
         String centroCustoString = centroCustoComboBox.getSelectedItem().toString();
+            Integer centroCustoInt = Integer.parseInt(centroCustoString);
         
         String unidadeString = unidadeTextField.getText();
+            Integer unidadeInt = Integer.parseInt(unidadeString);
         String departamentoString = departamentoTextField.getText();
+            Integer departamentoInt = Integer.parseInt(departamentoString);
         
         String cargaHorariaDiariaString = cargaHorariaDiariaTextField.getText();
+            Double cargaHorariaDiariaDouble = Double.parseDouble(cargaHorariaDiariaString);
         String cargaHorariaSemanalString = cargaHorariaSemanalTextField.getText();
+            Double cargaHorariaSemanalDouble = Double.parseDouble(cargaHorariaSemanalString);
         String cargaHorariaQuinzenalString = cargaHorariaQuinzenalTextField.getText();
+            Double cargaHorariaQuinzenalDouble = Double.parseDouble(cargaHorariaQuinzenalString);
         String cargaHorariaMensalString = cargaHorariaMensalTextField.getText();
+            Double cargaHorariaMensalDouble = Double.parseDouble(cargaHorariaMensalString);
         
         String remuneracaoBasicaString = remuneracaoBasicaTextField.getText();
+            Double remuneracaoBasicaDouble = Double.parseDouble(remuneracaoBasicaString);
         String remuneracaoComplementarString = remuneracaoComplementarTextField.getText();
+            Double remuneracaoComplementarDouble = Double.parseDouble(remuneracaoComplementarString);
         String remuneracaoAdicionalString = remuneracaoAdicionalTextField.getText();
+            Double remuneracaoAdicionalDouble = Double.parseDouble(remuneracaoAdicionalString);
         String remuneracaoGratificadaString = remuneracaoGratificadaTextField.getText();
+            Double remuneracaoGratificadaDouble = Double.parseDouble(remuneracaoGratificadaString);
         
         String titulacaoMaximaString = titulacaoMaximaTextField.getText();
+            Integer titulacaoMaximaInt = Integer.parseInt(titulacaoMaximaString);
+        
+        TecnicoAdministrativo gerente;
+        gerente = new TecnicoAdministrativo(null,preNomeString,sobrenomeString,dataDeNascimentoDate,municipioLong,
+                ,ufInt,paisInt,estadoCivilInt, enderecoEndereco , null, null, null,
+                null, null, null, matriculaLong, regimeEmpregoInt,regimeRemuneracaoInt, centroCustoInt, unidadeInt,
+                departamentoInt,cargaHorariaDiariaDouble,cargaHorariaSemanalDouble,cargaHorariaQuinzenalDouble,cargaHorariaMensalDouble,
+                remuneracaoBasicaDouble,remuneracaoComplementarDouble,remuneracaoAdicionalDouble,remuneracaoGratificadaDouble,titulacaoMaximaInt);
         
     }//GEN-LAST:event_finalizarCadastroBotaoActionPerformed
 

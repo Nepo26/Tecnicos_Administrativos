@@ -7,8 +7,8 @@ package Project;
  */
 /*
 * Nome.......: ElementoDescritivo
-* Objetivo...: Representa um elemento (com descrições abreviadas e completa) que
-*              será acessado por seu código (chave primária).
+* Objetivo...: Representa um elemento (com descri��es abreviada e completa) que  
+*              ser� acessado por seu c�digo (chave prim�ria).
 * Observacoes:
 */
 public class ElementoDescritivo {
@@ -29,7 +29,7 @@ public class ElementoDescritivo {
     }
     
     /**
-     * @param codigo Atribui valor para o código do elemento descritivo.
+     * @param codigo Atribui valor para o c�digo do elemento descritivo.
      */
     public void setCodigo(int codigo) {
         this.codigo = codigo;

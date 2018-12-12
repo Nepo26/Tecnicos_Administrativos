@@ -15,7 +15,8 @@ import java.util.Scanner;
 public class TecnicoAdministrativo extends Empregado {
 	Scanner s = new Scanner(System.in);
 	private static ArrayList <TecnicoAdministrativo> tecnicosAdministrativos;
-
+	
+	
 
 
 	//
@@ -26,152 +27,80 @@ public class TecnicoAdministrativo extends Empregado {
     // excluir pelo n�mero de matricula do empregado...
 
 
+	
+	//Construtor
+	public TecnicoAdministrativo(
+                DocumentoIdentificacao documento,
+                String prenome,
+                String sobrenome,
+			Date dataNascimento, 
+                        long municipioNascimento, 
+                        int ufNascimento, 
+                        int paisNascimento, 
+                        int estadoCivil,
+			Endereco endereco, 
+                        Telefone telefoneResidencial, 
+                        Telefone telefoneComercial, 
+                        Telefone telefoneAlternativo,
+			Email emailPessoal, 
+                        Email emailComercial, 
+                        Email emailAlternativo, 
+                        long matricula, 
+                        int regimeEmprego,
+			int regimeRemuneracao, 
+                        int centroCusto, 
+                        int unidade, 
+                        int departamento, 
+                        double cargaHorariaDiaria,
+			double cargaHorariaSemanal, 
+                        double cargaHorariaQuinzenal, 
+                        double cargaHorariaMensal,
+			double remuneracaoBasica, 
+                        double remuneracaoComplementar, 
+                        double remuneracaoAdicional,
+			double remuneracaoGratificada, 
+                        int titulacaoMaxima) {
+		super(
+                        documento, 
+                        prenome, 
+                        sobrenome, 
+                        dataNascimento, 
+                        municipioNascimento, 
+                        ufNascimento, 
+                        paisNascimento, 
+                        estadoCivil,
+			endereco, 
+                        telefoneResidencial, 
+                        telefoneComercial, 
+                        telefoneAlternativo, 
+                        emailPessoal, 
+                        emailComercial,
+			emailAlternativo, 
+                        matricula, 
+                        regimeEmprego, 
+                        regimeRemuneracao, 
+                        centroCusto, 
+                        unidade, 
+                        departamento,
+			cargaHorariaDiaria, 
+                        cargaHorariaSemanal, 
+                        cargaHorariaQuinzenal, 
+                        cargaHorariaMensal, 
+                        remuneracaoBasica,
+			remuneracaoComplementar, 
+                        remuneracaoAdicional, 
+                        remuneracaoGratificada, 
+                        titulacaoMaxima);
+		
+		tecnicosAdministrativos = new ArrayList<TecnicoAdministrativo>();
+	}
 
 
-        //Construtor
-        public TecnicoAdministrativo(
-                    DocumentoIdentificacao documento,
-                    String prenome,
-                    String sobrenome,
-                Date dataNascimento,
-                            long municipioNascimento,
-                            int ufNascimento,
-                            int paisNascimento,
-                            int estadoCivil,
-                Endereco endereco,
-                            Telefone telefoneResidencial,
-                            Telefone telefoneComercial,
-                            Telefone telefoneAlternativo,
-                Email emailPessoal,
-                            Email emailComercial,
-                            Email emailAlternativo,
-                            long matricula,
-                            int regimeEmprego,
-                int regimeRemuneracao,
-                            int centroCusto,
-                            int unidade,
-                            int departamento,
-                            double cargaHorariaDiaria,
-                double cargaHorariaSemanal,
-                            double cargaHorariaQuinzenal,
-                            double cargaHorariaMensal,
-                double remuneracaoBasica,
-                            double remuneracaoComplementar,
-                            double remuneracaoAdicional,
-                double remuneracaoGratificada,
-                            int titulacaoMaxima) {
-            super(
-                            documento,
-                            prenome,
-                            sobrenome,
-                            dataNascimento,
-                            municipioNascimento,
-                            ufNascimento,
-                            paisNascimento,
-                            estadoCivil,
-                            endereco,
-                            telefoneResidencial,
-                            telefoneComercial,
-                            telefoneAlternativo,
-                            emailPessoal,
-                            emailComercial,
-                            emailAlternativo,
-                            matricula,
-                            regimeEmprego,
-                            regimeRemuneracao,
-                            centroCusto,
-                            unidade,
-                            departamento,
-                            cargaHorariaDiaria,
-                            cargaHorariaSemanal,
-                            cargaHorariaQuinzenal,
-                            cargaHorariaMensal,
-                            remuneracaoBasica,
-                            remuneracaoComplementar,
-                            remuneracaoAdicional,
-                            remuneracaoGratificada,
-                            titulacaoMaxima);
+	public void cadastrar(TecnicoAdministrativo a) {
+		tecnicosAdministrativos.add(a);
+    }
 
-            tecnicosAdministrativos = new ArrayList<TecnicoAdministrativo>();
-        }
-
-
-        public void cadastrar() {
-
-            int c = s.nextInt();
-            TecnicoAdministrativo a = null;
-
-            //Chamando m�todos
-
-            a.setCargaHorariaDiaria(cargaHorariaDiaria);
-            a.setCargaHorariaMensal(cargaHorariaMensal);
-            a.setCargaHorariaQuinzenal(cargaHorariaQuinzenal);
-            a.setCargaHorariaSemanal(cargaHorariaSemanal);
-            a.setCentroCusto(centroCusto);
-            a.setDataNascimento(dataNascimento);
-            a.setDepartamento(departamento);
-            a.setDocumento(documento);
-            a.setEmailAlternativo(emailAlternativo);
-            a.setEmailComercial(emailComercial);
-            a.setEmailPessoal(emailPessoal);
-            a.setEndereco(endereco);
-            a.setEstadoCivil(estadoCivil);
-            a.setMatricula(matricula);
-            a.setMunicipioNascimento(municipioNascimento);
-            a.setPaisNascimento(paisNascimento);
-            a.setPrenome(prenome);
-            a.setRegimeEmprego(regimeEmprego);
-            a.setRegimeRemuneracao(regimeRemuneracao);
-            a.setRemuneracaoAdicional(remuneracaoAdicional);
-            a.setRemuneracaoBasica(remuneracaoBasica);
-            a.setRemuneracaoComplementar(remuneracaoComplementar);
-            a.setRemuneracaoGratificada(remuneracaoGratificada);
-            a.setSobrenome(sobrenome);
-            a.setTelefoneAlternativo(telefoneAlternativo);
-            a.setTelefoneComercial(telefoneComercial);
-            a.setTelefoneResidencial(telefoneResidencial);
-            a.setTitulacaoMaxima(titulacaoMaxima);
-            a.setUfNascimento(ufNascimento);
-            a.setUnidade(unidade);
-
-            //Criando cadastro/objeto
-            a = new TecnicoAdministrativo(
-                            a.getDocumento(),
-                            a.getPrenome(),
-                            a.getSobrenome(),
-                            a.getDataNascimento(),
-                            a.getMunicipioNascimento(),
-                            a.getUfNascimento(),
-                            a.getPaisNascimento(),
-                            a.getEstadoCivil(),
-                            a.getEndereco(),
-                            a.getTelefoneResidencial(),
-                            a.getTelefoneComercial(),
-                            a.getTelefoneAlternativo(),
-                            a.getEmailPessoal(),
-                            a.getEmailComercial(),
-                            a.getEmailAlternativo(),
-                            a.getMatricula(),
-                            a.getRegimeEmprego(),
-                            a.getRegimeRemuneracao(),
-                            a.getCentroCusto(),
-                            a.getUnidade(),
-                            a.getDepartamento(),
-                            a.getCargaHorariaDiaria(),
-                            a.getCargaHorariaSemanal(),
-                            a.getCargaHorariaQuinzenal(),
-                            a.getCargaHorariaMensal(),
-                            a.getRemuneracaoBasica(),
-                            a.getRemuneracaoComplementar(),
-                            a.getRemuneracaoAdicional(),
-                            a.getRemuneracaoGratificada(),
-                            a.getTitulacaoMaxima());
-
-            tecnicosAdministrativos.add(a);
-            //throw new UnsupportedOperationException("Not supported yet.");
-        }
-
-
+    
     public void alterar(DocumentoIdentificacao documento) {
         throw new UnsupportedOperationException("Not supported yet.");
 
@@ -257,4 +186,9 @@ public class TecnicoAdministrativo extends Empregado {
     }
 		return null;
 }
+
+    @Override
+    public void cadastrar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
