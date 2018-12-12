@@ -1,11 +1,11 @@
-package Project;//package sistemaacademico;
+//package sistemaacademico;
 /**
  *
  * @author Wanderley de Souza Alencar
  */
 /*
-* Nome.......: Project.Telefone
-* Objetivo...: Representar um nï¿½mero de telefone qualquer.
+* Nome.......: Telefone
+* Objetivo...: Representar um número de telefone qualquer.
 * Observacoes:
 */
 public class Telefone {

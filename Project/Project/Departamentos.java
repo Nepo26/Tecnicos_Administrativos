@@ -1,4 +1,4 @@
-package Project;//package sistemaacademico;
+//package sistemaacademico;
 
 import java.util.ArrayList;
 /**
@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * @author Wanderley de Souza Alencar
  */
 /*
-* Nome.......: Project.Departamentos
+* Nome.......: Departamentos
 * Objetivo...: Representa o departamento no qual um empregado pode estar lotado.
 * Observacoes: Se for desconhecido, utilize o tipo 0 - DS - Desconhecido.
 */
@@ -14,13 +14,13 @@ public class Departamentos {
     private ArrayList <ElementoDescritivo>  departamentos;
     
     /**
-     * Implemente de maneira similar ï¿½ UnidadesFederativas.
+     * Implemente de maneira similar à UnidadesFederativas.
      * 
-     * Cï¿½digo Descriï¿½ï¿½o Abreviada   Descriï¿½ï¿½o Completa
+     * Código Descrição Abreviada   Descrição Completa
      * 	00  - DS                    Desconhecido
-	01  - EC                    Engenharia da Computaï¿½ï¿½o
-	02  - EE                    Engenharia Elï¿½trica
-	03  - EM                    Engenharia Mecï¿½nica
+	01  - EC                    Engenharia da Computação
+	02  - EE                    Engenharia Elétrica
+	03  - EM                    Engenharia Mecânica
 	04  - OUT                   Outro
      */
     

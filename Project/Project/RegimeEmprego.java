@@ -1,6 +1,4 @@
-package Project;//package sistemaacademico;
-
-import Project.ElementoDescritivo;
+//package sistemaacademico;
 
 import java.util.ArrayList;
 
@@ -9,8 +7,8 @@ import java.util.ArrayList;
  * @author Wanderley de Souza Alencar
  */
 /*
-* Nome.......: Project.RegimeEmprego
-* Objetivo...: Representa os possï¿½veis regimes de emprego que um empregado pode 
+* Nome.......: RegimeEmprego
+* Objetivo...: Representa os possíveis regimes de emprego que um empregado pode 
 *              ter.
 * Observacoes: Se for desconhecido, utilize o tipo 0 - DS - Desconhecido.
 */
@@ -18,13 +16,13 @@ public class RegimeEmprego {
     private final int                           NUMERO_REGIME_EMPREGO = 5;
     private ArrayList <ElementoDescritivo>      regimeEmprego;
     /**
-     * Implementar de maneira semelhante ï¿½ UnidadeFederativa.
+     * Implementar de maneira semelhante à UnidadeFederativa.
      * 
             00 - Desconhecido
             01 - CLT (Decreto n. 5452/1943)
-            02 - Estatutï¿½rio Municipal
-            03 - Estatutï¿½rio Estadual
-            04 - Estatutï¿½rio Federal
+            02 - Estatutário Municipal
+            03 - Estatutário Estadual
+            04 - Estatutário Federal
             05 - Outro
      */
     

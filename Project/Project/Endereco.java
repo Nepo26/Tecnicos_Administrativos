@@ -1,16 +1,16 @@
-package Project;//package sistemaacademico;
+//package sistemaacademico;
 /**
  *
  * @author Wanderley de Souza Alencar
  */
 /*
-* Nome.......: Endereï¿½o
-* Objetivo...: Representar um endereï¿½o de um logradouro qualquer.
+* Nome.......: Endereço
+* Objetivo...: Representar um endereço de um logradouro qualquer.
 * Observacoes:
 */
 public class Endereco {
     int                             tipoLogradouro;         
-    int                             codigoLogradouro;       // ï¿½ o CEP do logradouro
+    int                             codigoLogradouro;       // É o CEP do logradouro
     String                          descricaoLogradouro;
     String                          complementoLogradouro;  // Por exemplo: esquina com Rua 26.
     int                             numero;                 // 0 quando inexistente
@@ -20,7 +20,7 @@ public class Endereco {
     long                            municipio;
     int                             unidadeFederacao;
     int                             pais;
-    String                          referencia;             // Ponto de referï¿½ncia do endereï¿½o.
+    String                          referencia;             // Ponto de referência do endereço.
 	
     
     

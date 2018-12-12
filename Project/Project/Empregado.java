@@ -1,5 +1,3 @@
-package Project;
-
 import java.util.Date;
 
 //package sistemaacademico;
@@ -8,8 +6,8 @@ import java.util.Date;
  * @author Wanderley de Souza Alencar
  */
 /*
-* Nome.......: Project.Empregado
-* Objetivo...: Representar um(a) empregado(a) qualquer de uma instituiï¿½ï¿½o de ensino.
+* Nome.......: Empregado
+* Objetivo...: Representar um(a) empregado(a) qualquer de uma instituição de ensino.
 * Observacoes:
 */
 public abstract class Empregado extends Pessoa {
@@ -18,39 +16,39 @@ public abstract class Empregado extends Pessoa {
     int                             regimeRemuneracao;
     
     //
-    // Normalmente um empregado estï¿½ "lotado" num centro centro de custo, unidade
+    // Normalmente um empregado está "lotado" num centro centro de custo, unidade
     // e departamento...
-    // Exemplo:     centro de custo : UFG - Cï¿½mpus I (Praï¿½a Universitï¿½ria) 
+    // Exemplo:     centro de custo : UFG - Câmpus I (Praça Universitária) 
     //              unidade:        Escola de Engenharia 
-    //              departamento:   Engenharia da Computaï¿½ï¿½o
+    //              departamento:   Engenharia da Computação
     //
     int                             centroCusto;
     int                             unidade;
     int                             departamento; 
 
-    double                          cargaHorariaDiaria;     // Mï¿½ximo de 10h
-    double                          cargaHorariaSemanal;    // Mï¿½ximo de 44h
-    double                          cargaHorariaQuinzenal;  // Mï¿½ximo de 100h
-    double                          cargaHorariaMensal;     // Mï¿½ximo de 250h
+    double                          cargaHorariaDiaria;     // Máximo de 10h
+    double                          cargaHorariaSemanal;    // Máximo de 44h
+    double                          cargaHorariaQuinzenal;  // Máximo de 100h
+    double                          cargaHorariaMensal;     // Máximo de 250h
 
     double                          remuneracaoBasica;          // Todos podem ser 0 (zero)
     double                          remuneracaoComplementar;    // ou mais...
     double                          remuneracaoAdicional;
     double                          remuneracaoGratificada;
     
-    int                             titulacaoMaxima;        // Cï¿½digo da titulaï¿½ï¿½o
+    int                             titulacaoMaxima;        // Código da titulação
     
     
     
 
 	public Empregado(DocumentoIdentificacao documento, String prenome, String sobrenome, Date dataNascimento,
-                     long municipioNascimento, int ufNascimento, int paisNascimento, int estadoCivil, Endereco endereco,
-                     Telefone telefoneResidencial, Telefone telefoneComercial, Telefone telefoneAlternativo, Email emailPessoal,
-                     Email emailComercial, Email emailAlternativo, long matricula, int regimeEmprego, int regimeRemuneracao,
-                     int centroCusto, int unidade, int departamento, double cargaHorariaDiaria, double cargaHorariaSemanal,
-                     double cargaHorariaQuinzenal, double cargaHorariaMensal, double remuneracaoBasica,
-                     double remuneracaoComplementar, double remuneracaoAdicional, double remuneracaoGratificada,
-                     int titulacaoMaxima) {
+			long municipioNascimento, int ufNascimento, int paisNascimento, int estadoCivil, Endereco endereco,
+			Telefone telefoneResidencial, Telefone telefoneComercial, Telefone telefoneAlternativo, Email emailPessoal,
+			Email emailComercial, Email emailAlternativo, long matricula, int regimeEmprego, int regimeRemuneracao,
+			int centroCusto, int unidade, int departamento, double cargaHorariaDiaria, double cargaHorariaSemanal,
+			double cargaHorariaQuinzenal, double cargaHorariaMensal, double remuneracaoBasica,
+			double remuneracaoComplementar, double remuneracaoAdicional, double remuneracaoGratificada,
+			int titulacaoMaxima) {
 		super(documento, prenome, sobrenome, dataNascimento, municipioNascimento, ufNascimento, paisNascimento,
 				estadoCivil, endereco, telefoneResidencial, telefoneComercial, telefoneAlternativo, emailPessoal,
 				emailComercial, emailAlternativo);

@@ -1,10 +1,10 @@
-package Project;//package sistemaacademico;
+//package sistemaacademico;
 /**
  *
  * @author Wanderley de Souza Alencar
  */
 /*
-* Nome.......: Project.Email
+* Nome.......: Email
 * Objetivo...: Representar e-mail qualquer.
 * Observacoes:
 */
